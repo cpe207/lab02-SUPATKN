@@ -1,0 +1,78 @@
+h3 {
+  text-align: center;
+  color: rgb(235, 62, 23);
+  font-style: italic;
+  text-shadow: 2px 1px 1px rgb(176, 189, 31);
+}
+
+h1 {
+  color: rgb(202, 223, 37);
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 1px 1px rgb(255, 0, 0);
+}
+
+.skill-header {
+  text-align: left;
+}
+.skill-container {
+  border: solid rgb(19, 86, 92);
+  border-radius: 9px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 10px 4px rgba(88, 88, 88, 0.4);
+  background-color: rgba(156, 240, 255, 0.863);
+}
+
+.link {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.aclass {
+  color: brown;
+  border: solid;
+  border-radius: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  background-color: rgba(179, 250, 255, 0.542);
+  box-shadow: 3px 3px 10px 4px rgba(88, 88, 88, 0.4);
+}
+
+body {
+  background-color: rgb(104, 174, 218);
+}
+
+.bk1 {
+  width: 150px;
+  position: absolute;
+  top: 0;
+  padding-top: 40px;
+  padding-left: 60px;
+  opacity: 0.65;
+}
+
+.bk2 {
+  width: 200px;
+  position: absolute;
+  right: 0;
+  padding-top: 70px;
+  padding-right: 80px;
+  opacity: 0.7;
+}
+
+.contact-container {
+  border: solid rgb(19, 86, 92);
+  border-radius: 9px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 10px 4px rgba(88, 88, 88, 0.4);
+  background-color: rgba(156, 240, 255, 0.863);
+}

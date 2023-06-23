@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Racing+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Poppins&family=Racing+Sans+One&display=swap");
+
 h3 {
   text-align: center;
   color: rgb(235, 62, 23);
@@ -22,6 +25,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   padding-left: 16px;
+  padding-right: 7px;
   margin-bottom: 20px;
   box-shadow: 3px 3px 10px 4px rgba(88, 88, 88, 0.4);
   background-color: rgba(156, 240, 255, 0.863);
@@ -30,16 +34,21 @@ h1 {
 .link {
   text-align: center;
   margin-bottom: 30px;
+  font-family: "Racing Sans One", cursive;
+  font-weight: 400;
+  font-size: 16px;
 }
 .aclass {
-  color: brown;
-  border: solid;
+  border: none;
   border-radius: 2px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 3px;
   background-color: rgba(179, 250, 255, 0.542);
   box-shadow: 3px 3px 10px 4px rgba(88, 88, 88, 0.4);
+  color: rgb(60, 96, 102);
+  text-decoration: none;
+  margin: 6px;
 }
 
 body {
@@ -75,4 +84,9 @@ body {
   margin-bottom: 20px;
   box-shadow: 3px 3px 10px 4px rgba(88, 88, 88, 0.4);
   background-color: rgba(156, 240, 255, 0.863);
+}
+
+p,
+h2 {
+  font-family: "Poppins", sans-serif;
 }

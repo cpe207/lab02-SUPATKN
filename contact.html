@@ -4,39 +4,209 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Contact</h1>
-
-    <div class="link">
-      <a class="aclass" href="index.html">Home page</a>
-      <a class="aclass" href="Experience.html">Experience</a>
-      <a class="aclass" href="contact.html">Contact</a>
-    </div>
-
-    <img
-      src="images/355568177_1563356167524918_2750027953671016284_n.jpg"
-      width="250px"
-      style="
-        border-radius: 20%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
-        box-shadow: 2px 2px 13px 8px rgba(88, 88, 88, 0.4);
-      "
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
     />
-    <div class="contact-container">
-      <h2 class="skill-header">Contact</h2>
-      <p>
-        Gmail : <a href="mailto:yacht1400@gmail.com">yacht1400@gmail.com</a
-        ><br />Phone : 0932938049<br />
-        CMU Email :
-        <a href="mailto:supatkon_p@cmu.ac.th">supatkon_p@cmu.ac.th</a>
-      </p>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-      <img class="bk2" src="images/pngimg.com - graffiti_PNG25.png" />
+  <body>
+    <div
+      class="d-flex gap-3 align-items-center p-2 px-4 text-white"
+      style="background-color: #12171e"
+    >
+      <img
+        src="images/Graffiti-Design-PNG-HD-Image.png"
+        width="150px"
+        class="me-auto"
+      />
+
+      <a
+        href="index.html"
+        class="text-white text-decoration-none d-none d-sm-block"
+        >Home</a
+      >
+      <a
+        href="Experience.html"
+        class="text-white text-decoration-none d-none d-sm-block"
+        >Experience</a
+      >
+      <a
+        href="gallery.html"
+        class="text-white text-decoration-none d-none d-sm-block"
+        >Gallery</a
+      >
+      <a
+        href="contact.html"
+        class="text-white text-decoration-none d-none d-sm-block"
+        >Contact</a
+      >
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="d-flex flex-column">
+          <a
+            href="index.html"
+            class="text-white text-decoration-none d-sm-none mb-1"
+            tabindex="-1"
+            role="button"
+            aria-disabled="true"
+            >Home</a
+          >
+          <a
+            href="Experience.html"
+            class="text-white text-decoration-none d-sm-none mb-1"
+            >Experience</a
+          >
+          <a
+            href="gallery.html"
+            class="text-white text-decoration-none d-sm-none mb-1"
+            >Gallery</a
+          >
+          <a
+            href="contact.html"
+            class="text-white text-decoration-none d-sm-none mb-1"
+            >Contact</a
+          >
+        </div>
+      </div>
+      <nav class="d-sm-none">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-menu-2"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M4 6l16 0"></path>
+              <path d="M4 12l16 0"></path>
+              <path d="M4 18l16 0"></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+    <p class="text-center fs-4 mt-3">Contact</p>
+    <div
+      class="d-flex flex-column mx-auto justify-content-center m-3 mt-4"
+      style="max-width: 50rem"
+    >
+      <div class="mx-auto">
+        <img
+          src="images/jj.jpg"
+          class="rounded-circle shadow"
+          style="width: 200px; height: 200px; object-fit: cover"
+        />
+      </div>
+      <div class="mx-auto mt-5">
+        <div class="d-flex pb-1">
+          <div class="fw-semibold" style="min-width: 95px">Name</div>
+          <div class="ps-2">Supatkorn Pundontong</div>
+        </div>
+        <div class="d-flex pb-1">
+          <div class="fw-semibold" style="min-width: 95px">Nickname</div>
+          <div class="ps-2">Yacht</div>
+        </div>
+        <div class="d-flex pb-1">
+          <div class="fw-semibold" style="min-width: 95px">Phone</div>
+          <div class="ps-2">093-293-8049</div>
+        </div>
+        <div class="d-flex pb-1">
+          <div class="fw-semibold" style="min-width: 95px">Email</div>
+          <a class="ps-2" href="mailto:yacht1400@gmail.com"
+            >yacht1400@gmail.com</a
+          >
+        </div>
+        <div class="d-flex pb-1">
+          <div class="fw-semibold" style="min-width: 95px">CMU Email</div>
+          <a class="ps-2" href="mailto:supatkon_p@cmu.ac.th"
+            >supatkon_p@cmu.ac.th</a
+          >
+        </div>
+      </div>
+
+      <p class="text-center fs-4 mt-5">Social media</p>
+      <div class="d-flex mx-auto gap-3">
+        <div>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/supatkn/"
+            class="btn btn-outline-dark rounded-3"
+            tabindex="-1"
+            role="button"
+            aria-disabled="true"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-instagram"
+              width="35px"
+              height="40px"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"
+              ></path>
+              <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+              <path d="M16.5 7.5l0 .01"></path>
+            </svg>
+          </a>
+        </div>
+        <div>
+          <a
+            target="_blank"
+            href="https://web.facebook.com/supatkn/"
+            class="btn btn-outline-dark rounded-3"
+            tabindex="-1"
+            role="button"
+            aria-disabled="true"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-facebook"
+              width="35px"
+              height="40px"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
     </div>
   </body>
 </html>
